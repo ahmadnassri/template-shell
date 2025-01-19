@@ -1,0 +1,12 @@
+additional:
+  - "template-*"
+
+files:
+  - "!.gitignore"
+  - "!**/template-sync.yml"
+  - "!colophon.yml"
+  - "!docker-compose.yml"
+  - "!docs/**"
+  - "!Makefile"
+  - "!README.md"
+  - "docs/README.template"
