@@ -1,5 +1,11 @@
 #!/usr/bin/make
 
+# ------------------------------------------------------- #
+# Note: this file originates in template-action-composite #
+# ------------------------------------------------------- #
+
+# Docker
+
 pull: ## pull latest containers
 	@docker compose pull
 
